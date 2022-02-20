@@ -50,6 +50,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B392FCD227C2742F002DD2FB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B392FCD327C27435002DD2FB /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B392FCD327C27435002DD2FB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		B3A9C01927C1225700D3714E = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +86,7 @@
 		B3A9C02527C1225700D3714E /* MyArchitecture-CommonPresenter */ = {
 			isa = PBXGroup;
 			children = (
+				B392FCD227C2742F002DD2FB /* UI */,
 				B3A9C02627C1225700D3714E /* MyArchitecture_CommonPresenter.h */,
 				B3A9C02727C1225700D3714E /* MyArchitecture_CommonPresenter.docc */,
 			);
